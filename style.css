@@ -1,7 +1,7 @@
 :root {
-    --dark-background: #1F2937;
+    --dark-background: #781E21;
     --white-text-color: #f9faf8;
-    --accent-color: #3882f6;
+    --accent-color: #ECC8D8;
 }
 
 * {
@@ -79,7 +79,7 @@ header {
 
 .hero-text button {
     background-color: var(--accent-color);
-    color: var(--white-text-color);
+    color: #611c1e;
     border: none;
     border-radius: 8px;
     padding: 8px 30px;
@@ -104,6 +104,7 @@ header {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    color: var(--dark-background);
 }
 
 .info-blocks-container {
@@ -164,6 +165,7 @@ header {
     max-width: 700px;
     margin: auto;
     padding: 30px;
+    color: var(--dark-background);
 }
 
 .quote {
@@ -188,9 +190,11 @@ header {
     color: var(--white-text-color);
     padding: 50px 120px;
     display: flex;
+    gap: 8px;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    color: var(--dark-background);
 }
 
 .newsletter-text h1 {
@@ -200,10 +204,12 @@ header {
 .sign-up-button {     
     background-color: var(--accent-color);
     color: var(--white-text-color);
-    border: 2px solid var(--white-text-color);
+    border: 2px solid var(--dark-background);
     border-radius: 8px;
     padding: 6px 28px;
     font-weight: 800;   
+    color: var(--dark-background);
+    flex-shrink: 0;
 }
 
 footer {
@@ -238,5 +244,14 @@ footer {
         font-size: 24px;
         margin: 30px 50px;
         padding: 16px 0px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .newsletter-text h1, .newsletter-text p {
+        margin-bottom: 10px;
     }
 }
