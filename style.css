@@ -23,9 +23,14 @@ a {
 }
 
 .hero {
-    padding: var(--align-padding);
     background-color: var(--dark-background);
     color: var(--white-text-color);
+}
+
+.aligner {
+    padding: 0px 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 header {
@@ -50,7 +55,7 @@ header {
 .hero-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 48px;
     flex: 1;
     padding: 100px 0px;
@@ -58,7 +63,7 @@ header {
 
 .hero-image {
     overflow: hidden;
-    max-width: 500px;
+    flex-basis: 50%;
 }
 
 .hero-image > img {
@@ -72,7 +77,6 @@ header {
     flex-direction: column;
     gap: 14px;
     align-items: flex-start;
-    max-width: 500px;
 }
 
 .hero-text button {
