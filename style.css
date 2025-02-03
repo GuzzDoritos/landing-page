@@ -177,6 +177,35 @@ header {
     align-self: flex-end;
 }
 
+/* Newsletter section */
+
+.newsletter-section {
+    padding: 100px 0px;
+}
+
+.newsletter-container {
+    background-color: var(--blue-color);
+    color: var(--white-text-color);
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.newsletter-text h1 {
+    font-size: 24px;
+}
+
+.sign-up-button {     
+    background-color: var(--blue-color);
+    color: var(--white-text-color);
+    border: 2px solid var(--white-text-color);
+    border-radius: 8px;
+    padding: 6px 28px;
+    font-weight: 800;   
+}
+
 /* Media queries */
 
 @media screen and (max-width: 750px) {
