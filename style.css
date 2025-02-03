@@ -1,7 +1,7 @@
 :root {
     --dark-background: #1F2937;
     --white-text-color: #f9faf8;
-    --blue-color: #3882f6;
+    --accent-color: #3882f6;
 }
 
 * {
@@ -78,7 +78,7 @@ header {
 }
 
 .hero-text button {
-    background-color: var(--blue-color);
+    background-color: var(--accent-color);
     color: var(--white-text-color);
     border: none;
     border-radius: 8px;
@@ -128,7 +128,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 4px var(--blue-color);
+    border: solid 4px var(--accent-color);
     border-radius: 15px;
 }
 
@@ -184,7 +184,7 @@ header {
 }
 
 .newsletter-container {
-    background-color: var(--blue-color);
+    background-color: var(--accent-color);
     color: var(--white-text-color);
     padding: 50px 120px;
     display: flex;
@@ -198,12 +198,21 @@ header {
 }
 
 .sign-up-button {     
-    background-color: var(--blue-color);
+    background-color: var(--accent-color);
     color: var(--white-text-color);
     border: 2px solid var(--white-text-color);
     border-radius: 8px;
     padding: 6px 28px;
     font-weight: 800;   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: var(--dark-background);
+    color: var(--white-text-color);
 }
 
 /* Media queries */
