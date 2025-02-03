@@ -153,6 +153,28 @@ header {
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 100px 0px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.quote-author {
+    align-self: flex-end;
 }
 
 /* Media queries */
