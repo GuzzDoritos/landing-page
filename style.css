@@ -249,6 +249,7 @@ footer {
     .newsletter-container {
         flex-direction: column;
         gap: 8px;
+        padding: 50px 50px; 
     }
 
     .newsletter-text h1, .newsletter-text p {
