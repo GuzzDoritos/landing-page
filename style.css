@@ -121,6 +121,8 @@ header {
     flex-direction: column;
     max-width: 150px;
     gap: 12px;
+    transition-duration: 0.5s;
+    cursor:default;
 }
 
 .media-block {
@@ -131,6 +133,12 @@ header {
     align-items: center;
     border: solid 4px var(--accent-color);
     border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.media-block:hover {
+    box-shadow: 0px 0px 17px 3px #E8E8E8;
+    transform: scale(1.0925);
 }
 
 .media-text {
